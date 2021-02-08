@@ -152,3 +152,7 @@ html{
   width: 40ex;
   height: 40ex;
 }
+
+.justified {
+  text-align: justify;
+}
