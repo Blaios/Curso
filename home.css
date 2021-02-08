@@ -1,0 +1,154 @@
+.text-home2{
+    color:white; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.muralswallpaper.com/app/uploads/harmony-fade-ombre-wallpaper-design-plain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    footer{
+        padding-top: 10%;
+    }
+}
+
+
+.root-main, .main {
+  flex: 100;
+}
+.root-child-header {
+  flex: 5;
+}
+.main-footer {
+  flex: 2;
+}
+
+html{
+    min-height:100%;
+}
+
+.card {
+  border: 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+.text-home {
+  font-family: 'Jazz LET', fantasy;
+  color: white;
+  text-decoration: underline;
+}
+
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.image-detras {
+  width: 40ex;
+  height: 40ex;
+}
