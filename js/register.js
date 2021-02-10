@@ -2,18 +2,17 @@
 
 var url = 'https://web-jedi.herokuapp.com/users';
 
-console.log(url);
 
 var user = {
-    Username : $("#username").val(),
-    Password : $("#password").val(),
-    Email: $("#email").val()
+    Username : $("#username").closest('form').attr('id'),
+    Password : $("#password").closest('form').attr('id'),
+    Email: $("#email").closest('form').attr('id')
 }
+
 console.log(user);
 
 var data = JSON.stringify(user)
 console.log(data)
-
 
   $('#sub').on("click", async () => {
     await axios.post(url, data, {
