@@ -21,7 +21,7 @@ window.addEventListener('load',()=> {
 
         await axios.post(url, data)
             .then(function (response) {
-                window.location.replace("/index.html");
+                window.location.replace("file:///C:/Users/blaio/Documents/GitHub/Curso/index.html");
                 alert('El usuario ha sido registrado correctamente');
                 console.log(response);
             })
