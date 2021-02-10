@@ -23,11 +23,7 @@ window.addEventListener('load', ()=> {
         console.log(data)
 
         $('#sub').on("click", async () => {
-            await axios.post(url, data, {
-                headers: {
-                'Content-Type': 'application/json'
-                }
-            })
+            await axios.post(url, data)
             .then(function (response) {
                 alert('El usuario ha sido registrado correctamente');
                 console.log(response);
