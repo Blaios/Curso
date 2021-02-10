@@ -1,11 +1,10 @@
-
-
 var url = 'https://web-jedi.herokuapp.com/users';
 
 var user = {
     username : "",
-    password : "",
-    email: ""
+    email: "",
+    password : ""
+    
 }
 
 
@@ -27,6 +26,7 @@ window.addEventListener('load',()=> {
                 console.log(response);
             })
             .catch(function (error) {
+                console.log(data)
                 alert('oops, parece que algo ha fallado!');
                 console.log(error);
             })
