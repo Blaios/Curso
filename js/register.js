@@ -2,11 +2,14 @@
 
 var url = 'https://web-jedi.herokuapp.com/users';
 
+console.log(url);
+
 var user = {
     Username : $("#username").val(),
     Password : $("#password").val(),
     Email: $("#email").val()
 }
+console.log(user);
 
 var data = JSON.stringify(user)
 console.log(data)
