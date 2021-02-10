@@ -1,6 +1,6 @@
 
 
-var url = '[https://web-jedi.herokuapp.com/users]';
+var url = 'https://web-jedi.herokuapp.com/users';
 
 var user = {
     Username : $("#username").val(),
@@ -8,7 +8,10 @@ var user = {
     Email: $("#email").val()
 }
 
-axios.post(url, user, {
+let data = JSON.stringify(user)
+console.log(data)
+
+axios.post(url, data, {
     headers: {
       'Content-Type': 'application/json'
     }
