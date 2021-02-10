@@ -8,7 +8,7 @@ var user = {
     Email: $("#email").val()
 }
 
-let data = JSON.stringify(user)
+var data = JSON.stringify(user)
 console.log(data)
 
 axios.post(url, data, {
