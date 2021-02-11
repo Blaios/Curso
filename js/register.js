@@ -7,7 +7,16 @@ var user = {
 }
 
 
+
 window.addEventListener('load', async()=> {
+    try {
+        var users = (await axios.get(url)).data;    
+    }
+    catch(error) {
+        alert('oops, parece que algo ha fallado!')
+        console.log(error)
+    }
+    
     const form = document.querySelector('form')
     form.addEventListener('submit', async(e)=>{
         e.preventDefault();
@@ -15,11 +24,14 @@ window.addEventListener('load', async()=> {
         user.username = form_doc["username"].value
         user.password = form_doc["password"].value
         user.email = form_doc["email"].value
-        var data = user
-        console.log(data)
-
+        for (var i = 0; i < users.length; i++) {
+            if (users[i].username === user.username) {
+                console.log("Error! El usuario ya existe! Vuelve a intentarlo por favor")
+                return;
+            }
+        }
         try {
-            await axios.post(url, data);
+            await axios.post(url, user);
             window.location.replace("https://blaios.netlify.app/home")
             alert('El usuario ha sido registrado correctamente')
             console.log(response)
