@@ -1,0 +1,33 @@
+var url = 'https://web-jedi.herokuapp.com/users';
+
+var user = {
+    username : "",
+    password : ""
+}
+
+window.addEventListener('load',()=> {
+    const form = document.querySelector('form')
+    form.addEventListener('submit', async(e)=>{
+        e.preventDefault();
+        var form_doc = document.forms[0]
+        user.username = form_doc["username"].value
+        user.password = form_doc["password"].value
+        var data = JSON.stringify(user)
+        console.log(data)
+
+        await axios.get(url, data)
+            .then(function (response) {
+                window.location.replace("https://blaios.netlify.app/home")
+                alert('El usuario ha sido registrado correctamente')
+                console.log(response)
+            })
+            .catch(function (error) {
+                console.log(data)
+                alert('oops, parece que algo ha fallado!')
+                console.log(error)
+            })
+    });
+});
+
+
+function login ()

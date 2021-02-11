@@ -7,7 +7,7 @@ var user = {
 }
 
 
-window.addEventListener('load',()=> {
+window.addEventListener('load', async()=> {
     const form = document.querySelector('form')
     form.addEventListener('submit', async(e)=>{
         e.preventDefault();
@@ -18,16 +18,16 @@ window.addEventListener('load',()=> {
         var data = JSON.stringify(user)
         console.log(data)
 
-        await axios.post(url, data)
-            .then(function (response) {
-                window.location.replace("https://blaios.netlify.app/home")
-                alert('El usuario ha sido registrado correctamente')
-                console.log(response)
-            })
-            .catch(function (error) {
-                console.log(data)
-                alert('oops, parece que algo ha fallado!')
-                console.log(error)
-            })
+        try {
+            await axios.post(url, data);
+            window.location.replace("https://blaios.netlify.app/home")
+            alert('El usuario ha sido registrado correctamente')
+            console.log(response)
+        }
+        catch(error) {
+            console.log(data)
+            alert('oops, parece que algo ha fallado!')
+            console.log(error)
+        }
     });
 });
