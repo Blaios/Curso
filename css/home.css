@@ -98,7 +98,7 @@ body {
   flex: 100;
 }
 .root-child-header {
-  flex: 5;
+  flex: 10;
 }
 .main-footer {
   flex: 2;
@@ -115,8 +115,8 @@ html{
 }
 
 .text-home {
-  font-family: 'Jazz LET', fantasy;
-  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:  #e6e6e6;
   text-decoration: underline;
 }
 
@@ -153,6 +153,29 @@ html{
   height: 40ex;
 }
 
+.image-delante {
+  width: 70ex;
+  height: 50ex;
+}
+
 .justified {
   text-align: justify;
 }
+
+
+html{
+  min-height:100%;
+  min-width: 100%;
+}
+
+@media screen and (max-device-width: 800px) {
+  html {
+    min-width: 100%;
+  }
+}
+
+.imagen-carousel {
+  width: 40em;
+  height: 30em;
+}
+
