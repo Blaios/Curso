@@ -1,5 +1,16 @@
 {
-  "users" : [
-
+  "users": [
+    {
+      "id": 1,
+      "username": "blaios",
+      "email": "blaios99@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "blaios99",
+      "email": "blaios999@gmail.com",
+      "password": "admin2"
+    }
   ]
 }
