@@ -15,7 +15,7 @@ window.addEventListener('load', async()=> {
         user.username = form_doc["username"].value
         user.password = form_doc["password"].value
         user.email = form_doc["email"].value
-        var data = JSON.stringify(user)
+        var data = user
         console.log(data)
 
         try {
