@@ -18,6 +18,7 @@ window.addEventListener('load', async()=> {
         catch(error) {
             alert('oops, parece que algo ha fallado!')
             console.log(error)
+            window.location.replace("https://blaios.netlify.app/")
         }
     });
 });

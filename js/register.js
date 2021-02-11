@@ -26,7 +26,8 @@ window.addEventListener('load', async()=> {
         user.email = form_doc["email"].value
         for (var i = 0; i < users.length; i++) {
             if (users[i].username === user.username) {
-                console.log("Error! El usuario ya existe! Vuelve a intentarlo por favor")
+                alert("Error! El usuario ya existe! Vuelve a intentarlo por favor")
+                window.location.replace("https://blaios.netlify.app/register")
                 return;
             }
         }
