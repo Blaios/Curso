@@ -12,5 +12,31 @@
       "email": "blaios999@gmail.com",
       "password": "admin2"
     }
+  ],
+  "animales": [
+    {
+      "id" : 1,
+      "link_delante": "https://server01.protectorabcn.es/3308-thickbox_default/frank.jpg",
+      "link_detras": "https://server01.protectorabcn.es/3303-thickbox_default/frank.jpg",
+      "biografia":  "Frank fue encontrado abandonado en un polígono industrial hace ya varios años. Desde el primer momento se vio que era un gato casero, así que seguramente alguien se cansó de él y decidió dejarlo allí a su suerte. Durante un tiempo, sobrevivió como pudo siendo alimentado por unas buenas personas, pero un día sufrió la crueldad humana y dejó de confiar en la gente. Por suerte las personas que cuidaban de él consiguieron cogerlo y así es como llegó Frank a la Protectora.  \\'  + \\\n \\'     \\'  + \\\n \\'   Debido a su pasado, Frank todavía se muestra tímido cuando ve mucha gente desconocida, por lo que suele esconderse y eso hace que sea aún más invisible para las familias que vienen a adoptar. Sin embargo, cuando ve a las personas que quiere, enseguida sale a recibirlas y a buscar mimos. Es un gato muy cariñoso y tranquilo que, con un poco de paciencia y en un buen hogar, será increíblemente agradecido.  \\'  + \\\n \\'     \\'  + \\\n \\'  Después de todo lo que ha sufrido, se merece disfrutar por fin de una familia con la que ser feliz."
+    },
+    {
+      "id" : 2,
+      "link_delante": "https://server03.protectorabcn.es/9212-thickbox_default/lynn.jpg",
+      "link_detras": "https://server01.protectorabcn.es/9331-thickbox_default/lynn.jpg",
+      "biografia": "Lynn fue rescatada de un árbol del que no podía bajar. No sabemos cuánto tiempo debió pasarse allí asustada pidiendo ayuda, pero seguro que lo pasó muy mal esperando a que alguien la viera y pudiera socorrerla.\n\nDesde el día en que llegó, resultó evidente que había sido una gata casera. Aunque era un poquito tímida al principio, enseguida empezó a buscar el contacto de las personas y a mostrarse muy dulce, buena y cariñosa.\n\nEs una gatita con un carácter muy tranquilo, a la que le encanta recibir caricias y cariño de las personas. Al contrario que otros gatos, Lynn no sigue a la gente pidiendo atenciones, pero siempre espera paciente a que alguien se acuerde de ella y le dedique su ratito de mimos, que recibe muy agradecida.\n\nCreemos que por eso pasa desapercibida para las visitas y es el motivo de que siga con nosotros, porque es realmente una gata maravillosa, que además se lleva muy bien con otros gatos. Es hora de que alguien le dé por fin la oportunidad que tanto se merece."
+    },
+    {
+      "id" : 3,
+      "link_delante": "https://server03.protectorabcn.es/9262-thickbox_default/leila.jpg",
+      "link_detras": "https://server02.protectorabcn.es/8538-thickbox_default/leila.jpg",
+      "biografia": "Leila fue rescatada de la calle con muy pocos días de vida. Al ser tan pequeña y delicada tuvo que ser criada a biberón en una casa de acogida, hasta que consiguió salir adelante y estar lo suficientemente fuerte como para entrar en el refugio y buscar a su nueva familia.\n\nAl principio era poco manipulable, pero con los meses mejoró mucho y se volvió muy sociable. Fue adoptada cuando era una cachorrita y devuelta al cabo de 2 años porque la familia que la adoptó ya no podía seguir cuidando de ella. Los primeros días los pasó muy asustada, ya que no entendía nada de lo que había ocurrido, pero al cabo de unas semanas se fue tranquilizando y volvió a ser la gatita que conocíamos.\n\nLeila es una gata muy buena, cariñosa y juguetona, que puede convivir con otros gatos y disfruta mucho de la compañía de las personas. Tanto es así que, cuando ve la más mínima oportunidad, se sube encima de las personas para que le dediquen toda su atención y recibir mimos. Leila necesita una familia sin niños pequeños y que le den el tiempo para conocerla y hacer que la convivencia en el hogar sea buena.\n"
+    },
+    {
+      "id" : 4,
+      "link_delante": "https://server03.protectorabcn.es/9159-thickbox_default/ra.jpg",
+      "link_detras": "https://server01.protectorabcn.es/9160-thickbox_default/ra.jpg",
+      "biografia": "Ra entró por primera vez en el refugio con pocos meses de vida. Al principio era un gatito muy tímido y apenas podíamos tocarlo. Sin embargo, poco a poco fue cambiando y empezó a dejarse acariciar y a disfrutar de los mimos.\n\nLamentablemente, tras más de tres años adoptado, Ra fue devuelto al refugio porque ya no tenían tiempo para él. Durante las primeras semanas estaba muy deprimido y no quería comer. Temimos que enfermara gravemente, pero poco a poco empezó a sobreponerse.\n\nAunque el shock de verse de nuevo en el refugio ha pasado, Ra no se acaba de encontrar a gusto. Es un gato muy casero que necesita una familia que le comprenda, y que le dé la tranquilidad y estabilidad que tanto ha faltado en su vida. En su antiguo hogar se orinaba fuera del arenero, pero estamos seguros que era un comportamiento vinculado al estrés y que se podría tratar con unas buenas pautas.\n\nAunque puede mostrarse un poco tímido al principio, una vez te conoce es un gato extremadamente cariñoso al que le encanta que lo acaricien y pasar largos ratos acurrucado disfrutando del sol. "
+    }
   ]
 }
