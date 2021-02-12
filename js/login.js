@@ -27,7 +27,7 @@ function login(response, username, password) {
     for (var i = 0; i < response.length; i++) {
         if (response[i].username === username) {
             if (response[i].password === password) {
-                alert('El usuario ha sido registrado correctamente')
+                alert('Ha sido logeado con éxito!')
                 return
             }
             else return error;
