@@ -24,6 +24,13 @@ window.addEventListener('load', async()=> {
         user.username = form_doc["username"].value
         user.password = form_doc["password"].value
         user.email = form_doc["email"].value
+        var password2 = form_doc["password2"].value
+        console.log(password2)
+        if (password2 != user.password) {
+            alert("Error! Las contraseñas no coinciden! Vuelve a intentarlo por favor")
+            window.location.replace("https://blaios.netlify.app/register")
+            return;
+        }
         for (var i = 0; i < users.length; i++) {
             if (users[i].username === user.username) {
                 alert("Error! El usuario ya existe! Vuelve a intentarlo por favor")
