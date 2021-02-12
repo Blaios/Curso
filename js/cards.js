@@ -14,9 +14,9 @@ const load = (response) => {
                 </div>
                 <div class="card-back">
                     <div class="card-body">
-                        <h3 class="card-title text-home2">Hola! Soy Haley</h3>
+                        <h3 class="card-title text-home2">Hola! Soy ${response[i].nombre}</h3>
                         <p class="card-text text-home2">Clica sobre mi imagen para saber mas de mi!</p>
-                        <a href="ficha.html">
+                        <a href="ficha.html?id=${response[i].id}">
                             <img class="card-img-top image-detras rounded-circle " src=${response[i].link_detras} alt="Card image cap">
                         </a>
                     </div>
@@ -32,9 +32,9 @@ const load = (response) => {
                 </div>
                 <div class="card-back">
                     <div class="card-body">
-                        <h3 class="card-title text-home2">Hola! Soy Haley</h3>
+                        <h3 class="card-title text-home2">Hola! Soy ${response[i+1].nombre}</h3>
                         <p class="card-text text-home2">Clica sobre mi imagen para saber mas de mi!</p>
-                        <a href="ficha.html">
+                        <a href="ficha.html?id=${response[i+1].id}">
                             <img class="card-img-top image-detras rounded-circle " src=${response[i+1].link_detras} alt="Card image cap">
                         </a>
                     </div>
