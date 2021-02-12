@@ -5,7 +5,7 @@ const load = (response) => {
     for (let i = 0; i < response.length; i = i+2) {
       $("#cardsHome").append(
         ` <div class="row justify-content-center align-items-center">
-        <div class="col mx-5 mb-5 mt-5">
+        <div class="col-md-6 col-sm-12 mb-5 mt-5">
             <div class="card card-flip h-100">
                 <div class="card-front text-white">
                     <div class="card-body">
@@ -23,7 +23,7 @@ const load = (response) => {
                 </div>
             </div>
         </div>
-        <div class="col mx-5 mb-5 mt-5">
+        <div class="col-md-6 col-sm-12 mb-5 mt-5">
             <div class="card card-flip h-100">
                 <div class="card-front text-white">
                     <div class="card-body">

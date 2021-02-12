@@ -8,7 +8,7 @@ var url = 'https://web-jedi.herokuapp.com/animales';
 const load = (response, id) => {
     $("#fichaAnimal").append(
         `<div class="row justify-content-end align-items-center mt-5">
-        <div class="col-6  ">
+        <div class="col-md-6 col-sm-12 ">
             <h1 class="text-home text-center mb-5">LA VIDA DE ${response[id].nombre}</h1>
             <p class="justified">${response[id].biografia}
             </p>
@@ -16,7 +16,7 @@ const load = (response, id) => {
         </div>
         <div class="col-1"></div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <img class="card-img-top image-detras rounded-circle " src=${response[id].link_delante} alt="La imagen no está disponible">
         </div>
     </div>`

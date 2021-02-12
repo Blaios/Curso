@@ -179,3 +179,18 @@ html{
   height: 30em;
 }
 
+@media screen and (max-device-width: 800px) {
+  .imagen-carousel {
+    width: 20em;
+    height: 15em;
+  }
+  .image-detras {
+    width: 20ex;
+    height: 20ex;
+  }
+  
+  .image-delante {
+    width: 35ex;
+    height: 25ex;
+  }  
+}
